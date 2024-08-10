@@ -1,0 +1,47 @@
+.calc {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.button-list {
+	display: flex;
+	list-style-type: none;
+	width: 320px;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding: 15px;
+	margin: 0 auto;
+}
+.button {
+	display: flex;
+	width: 90px;
+	height: 90px;
+	justify-content: center;
+	align-items: center;
+	border: solid black 1px;
+	border-radius: 15px;
+	margin: 1px;
+	font-size: 32px;
+	background-color: rgb(16, 179, 255);
+	box-shadow: inset 5px 5px 20px 4px rgba(0, 0, 0, 0.6);
+}
+.button:hover {
+	box-shadow: inset 0px 0px 20px 9px rgba(0, 0, 0, 0.6);
+	cursor: pointer;
+}
+
+.nums li:nth-child(1) {
+	order: 1;
+}
+
+.result {
+	border: solid black 1px;
+	height: 200px;
+	width: 500px;
+	padding: 15px;
+	margin: 15px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 64px;
+}

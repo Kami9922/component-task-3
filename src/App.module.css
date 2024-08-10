@@ -34,14 +34,20 @@
 	order: 1;
 }
 
-.result {
-	border: solid black 1px;
+.render {
+	border: solid rgb(10, 102, 145) 5px;
 	height: 200px;
 	width: 500px;
 	padding: 15px;
 	margin: 15px;
 	display: flex;
+	border-radius: 15px;
 	justify-content: center;
 	align-items: center;
 	font-size: 64px;
+	box-shadow: 0px 0px 30px 10px rgba(0, 0, 0, 0.2);
+}
+
+.result {
+	color: rgb(80, 202, 10);
 }
